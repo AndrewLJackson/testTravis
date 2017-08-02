@@ -12,7 +12,7 @@ warnings_are_errors: false
 #  only:
 #    - release
 
-before_install:
+#before_install:
 #  - sudo add-apt-repository ppa:marutter/rrutter -y
 #  - sudo apt-get update
 #  - sudo apt-get install jags
@@ -21,7 +21,7 @@ before_install:
 ## AJ - this looks like a shortcut to the long version below
 # Code coverage
 r_packages:
-  - covr
+  #- covr
   #- MixSIAR
 
 ## instructions from http://jtleek.com/protocols/travis_bioc_devel/
@@ -35,7 +35,7 @@ r_packages:
 #  - ./travis-tool.sh install_deps
 
 after_success:
-- Rscript -e 'library(covr); codecov()'
+#- Rscript -e 'library(covr); codecov()'
 
 
 
