@@ -1,0 +1,24 @@
+---
+title: "test-vignette-depends"
+author: "Andrew L Jackson"
+date: '`r Sys.Date()`'
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to SIBER}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+  %\VignetteDepends{hdrcde}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{r use-hdrcde}
+
+hdrcde::hdr(stats::rnorm(10^3))
+
+```
+
