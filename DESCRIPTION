@@ -11,5 +11,6 @@ Encoding: UTF-8
 LazyData: true
 Suggests:
     SIBER,
-    knitr
+    knitr,
+    rmarkdown
 VignetteBuilder: knitr
