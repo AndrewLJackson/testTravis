@@ -19,6 +19,6 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r use-hdrcde}
 
 data(demo.siber.data, package = "SIBER")
-my.siber.data <- createSiberObject(demo.siber.data)
+my.siber.data <- SIBER::createSiberObject(demo.siber.data)
 ```
 
