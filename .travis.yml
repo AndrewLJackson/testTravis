@@ -21,11 +21,13 @@ warnings_are_errors: false
 ## AJ - this looks like a shortcut to the long version below
 # Code coverage
 r_packages:
-  #- covr
-  #- MixSIAR
+  #- SIBER
+  #- rmarkdown
+  #- knitr
 
 ## instructions from http://jtleek.com/protocols/travis_bioc_devel/
-#install:
+install:
+  - ./travis-tool.sh install_deps
 #  - ./travis-tool.sh install_bioc S4Vectors
 #  - ./travis-tool.sh install_bioc IRanges
 #  - ./travis-tool.sh install_r Matrix
