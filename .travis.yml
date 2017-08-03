@@ -21,7 +21,7 @@ warnings_are_errors: false
 ## AJ - this looks like a shortcut to the long version below
 # Code coverage
 r_packages:
-  - SIBER
+  - spatstat.utils
   - rmarkdown
   - knitr
 
